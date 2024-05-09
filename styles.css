@@ -46,6 +46,7 @@ body {
 
 nav {
     width: 65%;
+    font-family : "Dancing Script", cursive;
     font-size: clamp(15px, 3vw, 23px);
     font-weight: 300;
 
