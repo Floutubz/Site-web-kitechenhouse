@@ -128,9 +128,8 @@ main::before {
 }
 
 .recette-semaine article {
-    width: clamp(150px, 100%, 350px);
-    height: clamp(100px, 100%, 250px);
-    margin-left: auto;
+    width: 350px;
+    height: 200px;
     background-image: url(pexels-ella-olsson-572949-1640774.jpg);
     background-size: cover;
     background-position: center;
