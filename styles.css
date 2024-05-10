@@ -150,6 +150,7 @@ main::before {
     background-color: #eeeeee;
     border-radius: 10px 10px 0 0;
     padding: 10px;
+    margin-right: auto;
 }
 
 .text-accueil p {
@@ -160,6 +161,8 @@ main::before {
     background-color: #eeeeee;
     border-radius: 0 5px 5px 5px;
     padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .accueil section:nth-child(2) {
