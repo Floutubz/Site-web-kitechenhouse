@@ -111,7 +111,6 @@ main::before {
 
 .accueil section {
     height: 80vh;
-    border: 0.5px solid white;
 }
 
 .section-recette {
@@ -128,15 +127,43 @@ main::before {
 }
 
 .recette-semaine article {
-    width: 350px;
-    height: 200px;
+    width: clamp(5vw, 60vw, 400px);
+    height: clamp(5vh, 30vh, 250px);
+    margin-left: auto;
     background-image: url(pexels-ella-olsson-572949-1640774.jpg);
     background-size: cover;
-    background-position: center;
+    border-radius: 5px;
 }
 
 .text-accueil {
     width: 100%;
     height: 50%;
-    border: 1px solid white;
+    align-content: center;
+}
+
+.text-accueil h1 {
+    width: max-content;
+    font-family: "Teachers", sans-serif;
+    font-size: clamp(10px, 4vw, 4em);
+    font-weight: 400;
+    color: #333;
+    background-color: #eeeeee;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+.text-accueil p {
+    width: max-content;
+    font-family: "Teachers", sans-serif;
+    font-size: clamp(5px, 2.5vw, 2em);
+    font-weight: 500;
+    background-color: #eeeeee;
+    border-radius: 0 5px 5px 5px;
+    padding: 5px;
+}
+
+.accueil section:nth-child(2) {
+    background-image: url(pexels-lum3n-44775-604969.jpg);
+    background-position: bottom;
+    background-size: cover;
 }
