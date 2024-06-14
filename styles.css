@@ -163,3 +163,25 @@ main::before {
     background-position: bottom;
     background-size: cover;
 }
+
+.generateur {
+    color: #eeeeee;
+    font-size: 3vw;
+    text-align: center;
+    align-content: center;
+}
+
+.generateur p {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    font-family: "Teachers", sans-serif;
+    margin-bottom: 40vh;
+}
+
+.generateur input {
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    display: flex;
+}
