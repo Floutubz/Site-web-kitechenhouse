@@ -144,7 +144,7 @@ main::before {
 .text-accueil h1 {
     width: max-content;
     font-family: "Teachers", sans-serif;
-    font-size: 4em;
+    font-size: 5vw;
     font-weight: 300;
     color: #df8e15;
 }
@@ -153,7 +153,7 @@ main::before {
     width: fit-content;
     font-family: "Teachers", sans-serif;
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 4vw;
     color: #eee;
     border-radius: 5px;
 }
