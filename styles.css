@@ -132,7 +132,7 @@ main::before {
     margin-left: auto;
     background-image: url(pexels-ella-olsson-572949-1640774.jpg);
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .text-accueil {
